@@ -25,32 +25,6 @@ SELECT COUNT(*) FROM retail_sales ;
 SELECT * FROM retail_sales
 WHERE Sale_time IS NULL
 
---- Multiple Condition Check 
-
-SELECT * FROM retail_sales
-WHERE Sale_time IS NULL 
-OR sale_date IS NULL
-OR gender IS NULL
-OR age IS NULL
-OR category IS NULL
-OR Quantity IS NULL
-OR price_per_unit IS NULL
-OR Coge IS NULL
-OR total_sales IS NULL
-
-DELETE FROM  retail_sales
-
-WHERE Sale_time IS NULL 
-OR sale_date IS NULL
-OR gender IS NULL
-OR age IS NULL
-OR category IS NULL
-OR Quantity IS NULL
-OR price_per_unit IS NULL
-OR Coge IS NULL
-OR total_sales IS NULL
-
-
 -- Data Exploration
 -- How Many sales we have ?
 
